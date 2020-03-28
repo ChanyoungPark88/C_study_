@@ -3,7 +3,7 @@
 int main()
 {
     unsigned char flag = 0;
-
+    // flag |= mask
     flag |= 1;              // 0000 0001 turn on 8th bit with mask and bit OR
     flag |= 2;              // 0000 0010 turn on 7th bit with mask and bit OR
     flag |= 4;              // 0000 0100 turn on 6th bit with mask and bit OR
