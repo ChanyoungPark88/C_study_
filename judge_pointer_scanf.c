@@ -18,7 +18,7 @@ int main()
     {
         for (int j = 0; j < rowcol; j++)
         {
-            m[i][j] = i;
+            m[i][j] = 0;
         }
     }
     
@@ -26,7 +26,8 @@ int main()
     {
         for (int j = 0; j < rowcol; j++)
         {
-            printf("%d", m[i][j]);
+            m[i][i] = 1;
+            printf("%d ", m[i][j]);
         }
         printf("\n");
     }
