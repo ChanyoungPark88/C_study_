@@ -17,8 +17,9 @@ int main()
         ++sum;
     }
     printf("%d\n", sum);
-    
+
     free(s1);
 
     return 0;
 }
+// 20200403 6:40 end
